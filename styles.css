@@ -1,0 +1,55 @@
+body{
+    background: #FFF8DC;
+    margin:0;
+
+}
+div{
+	box-sizing: border-box;
+}
+header{
+    background: #FFFACD;
+    font-family: 'Bebas Neue', cursive;
+
+    
+}
+header h1{
+    margin:0;
+    padding: 10px;
+}
+div.post{
+    background: #C0C0C0;
+    margin-top:10px;
+}
+
+div.post img{
+	width:100%;
+}
+div.post .post-header div:first-child{
+	display: inline-block;
+	
+	width: 80%;
+
+}
+div.post .post-header div:last-child{
+	display: inline-block;
+	text-align: right;
+	padding:5px;
+	width: 20%;
+	color: gray;
+
+}
+div.post h2, div.post p{
+	padding: 10px;
+	margin: 0;
+
+}
+p{
+	font-family: 'Long Cang', cursive;
+}
+h2{
+	font-family: 'Amatic SC', cursive;
+}
+div.container{
+    width:600px;
+    margin:auto;
+}
